@@ -59,7 +59,8 @@ Launch jupyter notebook or jupyter lab and set working directory to the bio_rag.
 Then launch the bio_rag.ipynb.
 
 **Note:** 
-Before running the streamlit frontend "app.py" or "bio_rag.py" for the first time, run the "bio_rag.ipynb" notebook till the first part that is saving the textbook embeddings. 
+* Before running the streamlit frontend "app.py" or "bio_rag.py" for the first time, run the "bio_rag.ipynb" notebook till the first part that is saving the textbook embeddings. 
+* Download and save the pdf in data directory before running the bio_rag.ipynb.
 
 ```
 jupyter notebook
@@ -68,6 +69,7 @@ jupyter notebook
 **Setup notes:** 
 * If you run into any install/setup troubles, please leave an issue.
 * To get access to the Gemma LLM models, you will have to [agree to the terms & conditions](https://huggingface.co/google/gemma-7b-it) on the Gemma model page on Hugging Face. You will then have to authorize your local machine via the [Hugging Face CLI/Hugging Face Hub `login()` function](https://huggingface.co/docs/huggingface_hub/en/quick-start#authentication). Once you've done this, you'll be able to download the models. If you're using Google Colab, you can add a [Hugging Face token](https://huggingface.co/docs/hub/en/security-tokens) to the "Secrets" tab.
+
 
 
 **Possible Improvements**
