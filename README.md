@@ -60,7 +60,7 @@ Then launch the bio_rag.ipynb.
 
 **Note:** 
 * Before running the streamlit frontend "app.py" or "bio_rag.py" for the first time, run the "bio_rag.ipynb" notebook till the first part that is saving the textbook embeddings. 
-* Download and save the pdf in data directory before running the bio_rag.ipynb.
+* Download and save the pdf in data directory in the same repository before running the bio_rag.ipynb.
 
 ```
 jupyter notebook
